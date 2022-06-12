@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body background="https://cdn.pixabay.com/photo/2015/05/06/03/54/red-754861_960_720.png">
+<style>
+.mainmenubtn {
+background-color: pink;
+color: white;
+border: none;
+cursor: pointer;
+padding:20px;
+margin-top:20px;
+}
+.mainmenubtn:hover {
+background-color: blue;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-child {
+display: none;
+background-color: green;
+min-width: 200px;
+}
+.dropdown-child a {
+color: blue;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+<button class="mainmenubtn">turismo</button>
+<div class="dropdown-child">
+<a href="https://www.tripadvisor.es/Restaurant_Review-g17723581-d21182426-Reviews-Cafe_Santa_Cruz-San_Francisco_Chinameca_La_Paz_Department.html">cafe santa cruz 1</a>
+<a href="http://www.elsalvadorturismo.com.sv/turismoelsalvador/areasnaturales/cerro-el-pital/index.html">el pital 2</a>
+<a href="http://www.elsalvadorturismo.com.sv/turismoelsalvador/areasnaturales/la-puerta-del-diablo/index.html">la puerta del diablo 3</a>
+<a href="https://www.visitcentroamerica.com/visitar/playa-el-tunco/">playa el tunco 4</a>
+<a href="https://www.cultura.gob.sv/marco-institucional/direccion-nacional-de-casas-de-la-cultura-y-parques-culturales/parque-saburo-hirao/">parque saburo hirao 5</a>
+</div>
+</div>
+</body>
+</html>
